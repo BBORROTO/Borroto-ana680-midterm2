@@ -1,0 +1,15 @@
+#python cache and compiled files
+__pycache__/
+*.pyc
+
+#virtual environment folder
+venv/
+
+#model artifacts (you retrain during CI/CD)
+model/*.pkl
+
+#environment variables
+.env
+
+#pyCharm project settings
+.idea/
